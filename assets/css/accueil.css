@@ -1,0 +1,8 @@
+
+/* Bannière */
+.banner {
+    background-image: url('../img/banner.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
