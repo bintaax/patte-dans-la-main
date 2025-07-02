@@ -9,8 +9,9 @@
 </head>
 <body style="background-color: #fffaf7;">
     <header>
+        <!-- Navigation fixe -->
         <nav class="navbar d-flex justify-content-evenly">
-            <a href="#"><img src="./assets/img/logo.png" alt="logo" style="width: 200px;"></a>
+            <a href="#" class="navbar-brand"><img src="./assets/img/logo.png" alt="logo" style="width: 200px;"></a>
             <div class="tel">
                 <img width="50" height="50" src="https://img.icons8.com/ios/50/phone--v1.png" alt="phone--v1"/>
                 <p style="color: #e76f51;">Paris 75010: <br> 01 23 45 67 89</p>
@@ -22,6 +23,7 @@
             </div>
             
         </nav>
+        <!-- Navigation non-fixe -->
         <nav class="navbar d-flex justify-content-center align-items-center" style="background-color: #e76f51;">
             <ul>
                 <li class="list-unstyled text-uppercase text-light">patte dans la main<a href="#"></a></li>
@@ -38,36 +40,21 @@
             <!-- Caroussel -->
 
             <!-- Liste des animaux -->
-             <div class="animal">
-                <h2 class="text-center" style="color: #e76f51;">Nos animaux</h2>
-
-                <!-- Carte profil : première ligne -->
-<div class="card-group w-50  m-auto">
-  <div class="card h-25">
-    <img src="./assets/img/yoda.jfif" class="card-img-top" alt="yoda" style="width: 100px;">
-    <div class="card-body">
-      <h5 class="card-title">Yoda</h5>
-    </div>
-  </div>
-  <div class="card h-25">
-    <img src="./assets/img/yami.jfif" alt="yami" class="card-img-top" style="width: 100px;">
-    <div class="card-body">
-        <h5 class="card-title">Yami</h5>
-    </div>
-  </div>
-  <div class="card h-25">
-    <img src="./assets/img/yuki.jfif" alt="yuki" class="card-img-top" style="width: 100px;">
-    <div class="card-body">
-        <h5 class="card-title">Yuki</h5>
-    </div>
-  </div>
-  <div class="card h-25">
-    <img src="./assets/img/chat-3.jpg" alt="caramel">
-    <div class="card-body">
-        <h5 class="card-title">Caramel</h5>
-    </div>
-  </div>
-</div>
+             <div class="fiches-animaux">
+                <div class="card-group m-auto">
+                    <div class="card">
+                        <img src="./assets/img/yoda.jfif" class="card-img-top" alt="yoda">
+                        <div class="card-body">
+                            <h4 class="card-title">Yoda</h4>
+                        </div>
+                    </div>
+                        <div class="card">
+                            <img src="./assets/img/yami.jfif" class="card-img-top" alt="yami">
+                            <div class="card-body">
+                                <h4 class="card-title">Yami</h4>
+                            </div>
+                        </div>
+                </div>
              </div>
         </section>
     </main>

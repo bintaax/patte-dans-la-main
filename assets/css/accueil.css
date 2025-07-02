@@ -6,3 +6,17 @@
     background-repeat: no-repeat;
     height: 500px;
 }
+
+/* Fiche profil des animaux */
+.fiches-animaux {
+    width: 500px;
+}
+
+.card {
+    width: 50px;
+    gap: 40px;
+}
+
+.card img {
+    width: 100px;
+}
