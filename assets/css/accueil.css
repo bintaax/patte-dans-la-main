@@ -1,3 +1,8 @@
+/* Navigation fixe */
+.nav {
+    z-index: 1;
+}
+
 
 /* Bannière */
 .banner {
@@ -7,15 +12,15 @@
     height: 500px;
 }
 
-/* Fiche profil des animaux */
-.fiches-animaux {
-    width: 500px;
+.banner img {
+    width: 100%;
 }
 
-.card {
-    width: 50px;
+/* Icônes du footer */
+.icones-footer p {
+    padding-top: 10px;
 }
 
-.card img {
-    width: 100px;
+.reseaux {
+    padding-top: 50px;
 }
