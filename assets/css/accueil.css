@@ -1,19 +1,13 @@
 
-body {
-    margin: auto;
-}
-
 /* Navigation fixe */
-.nav {
+#fixe {
     z-index: 1;
-
+    align-items: center;
 }
 
 /* Navigation non-fixe */
 #non-fixe {
-    z-index: 1;
-    padding-top: 15px;
-    text-align: center;
+    z-index: 0;
 }
 /* Bannière */
 .banner {
@@ -47,3 +41,4 @@ button {
 .reseaux {
     padding-top: 50px;
 }
+
