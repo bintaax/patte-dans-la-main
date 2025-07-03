@@ -1,20 +1,43 @@
+
+body {
+    margin: auto;
+}
+
 /* Navigation fixe */
 .nav {
     z-index: 1;
+
 }
 
-
+/* Navigation non-fixe */
+#non-fixe {
+    z-index: 1;
+    padding-top: 15px;
+    text-align: center;
+}
 /* Bannière */
 .banner {
     background-image: url('../img/banner.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    background-position: 50% 50%;
+    height: 400px;
+}
+/* Boutons du header */
+
+button {
+    width: 100px;
+    height: 50px;
 }
 
-.banner img {
-    width: 100%;
+/* Cartes des fiches profil des animaux */
+.card-group {
+    img {
+        width: 202px;
+        height: 359px;
+    }
 }
+
 
 /* Icônes du footer */
 .icones-footer p {
