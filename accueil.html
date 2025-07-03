@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/accueil.css">
+</head>
+<body style="background-color: #fffaf7;">
+ <header>
+        <!-- Navigation fixe -->
+        <nav class="nav d-flex justify-content-evenly w-100 bg-white" style="background-color: white;" id="fixe">
+            <a href="#" class="navbar-brand"><img src="./assets/img/logo.png" alt="logo" style="width: 200px;"></a>
+            <div class="tel d-flex">
+                <img src="./assets/img/icons8-téléphone-32.png" alt="icone telephone" style="width: 40px; height: 40px; margin-right: 10px; margin-top: 15px;">
+                <p style="color: #e76f51;">01 23 45 67 89</p>
+            </div>
+            <div class="bouton-header">
+                <button style="background-color: #36ba98; border: none;" class="text-light text-uppercase rounded">j'adopte</button>
+                <button style="background-color: #36ba98; border: none;" class="text-light text-uppercase rounded">je donne</button>
+                <button style="background-color: #36ba98; border: none;" class="text-light text-uppercase rounded">j'adhère</button>
+            </div>            
+        </nav>
+        <!-- Navigation non-fixe -->
+        <nav  class="navbar w-100 d-flex justify-content-center flex-wrap"  style="background-color: #e76f51;" id="non-fixe">
+            <ul class="d-flex" style="gap: 40px; margin-top: 150px;">
+                <li class="list-unstyled text-uppercase text-light"><a href="#">patte dans la main</a></li>
+                <li class="list-unstyled text-uppercase text-light"><a href="yoda-yami.html">j'adopte</a></li>
+                <li class="list-unstyled text-uppercase text-light"><a href="#">j'aide</a></li>
+                <li class="list-unstyled text-uppercase text-light"><a href="#">j'ai besoin d'aide</a></li>
+                <li class="list-unstyled text-uppercase text-light"><a href="rdv.html">nous contacter</a></li>
+            </ul>
+        </nav>
+ 
+        <div class="banner"></div>
+    </header>
+    <main>
+        <section class="container" style="background-color: #fffaf7;">
+            <!-- Caroussel -->
+            <div id="carouselExampleAutoplaying" class="carousel slide m-auto p-4" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/Adopter un animal.png" alt="adoption" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/Aider les animaux.png" alt="aide aux animaux" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/Signaler un acte de maltraitance.png" alt="signalement" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+ 
+            <!-- Liste des animaux -->
+             <div class="fiches-animaux m-auto p-5">
+                <h2 class="text-center pb-4" style="color: #e76f51;">Nos animaux</h2>
+                <!-- 1ère ligne -->
+                <div class="card-group" style="gap: 129px; padding-bottom: 81px;">
+                    <div class="card" style="width: 240px;">
+                        <!-- Accès à la page de présentation de Yoda et Yami -->
+                        <a href="yoda-yami.html">
+                            <img src="./assets/img/yoda.jfif" class="card-img-top" alt="yoda">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">Yoda</h4>
+                        </div>
+                    </div>
+                        <div class="card" style="width: 240px;">
+                        <!-- Accès à la page de présentation de Yoda et Yami -->
+                            <a href="yoda-yami.html">
+                                <img src="./assets/img/yami.jfif" class="card-img-top" alt="yami">
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title">Yami</h4>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 240px;">
+                             <img src="./assets/img/yuki.jfif" alt="yuki" class="card-img-top" style="width: 100%;">
+                            <div class="card-body">
+                                <h4 class="card-title">Yuki</h4>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 240px;">
+                            <img src="./assets/img/chat-3.jpg" alt="caramel" class="card-img-top">
+                            <div class="card-body">
+                                <h4 class="card-title">Caramel</h4>
+                            </div>
+                        </div>                
+                </div>
+                <!-- 2ème ligne -->
+                <div class="card-group" style="gap: 129px; padding-bottom: 81px;">
+                    <div class="card" style="width: 240px;">
+                        <img src="./assets/img/chien-1.jpg" alt="fred" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Fred</h4>
+                        </div>
+                    </div>
+                     <div class="card" style="width: 240px;">
+                        <img src="./assets/img/chien-2.jpg" alt="huskytou" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Huskytou</h4>
+                        </div>
+                    </div>
+                 <div class="card" style="width: 240px;">
+                        <img src="./assets/img/chien-3.jpg" alt="greg" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Greg</h4>
+                        </div>
+                    </div>
+                 <div class="card" style="width: 240px;">
+                        <img src="./assets/img/lapin-1.jpg" alt="pinou" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Pinou</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3ème ligne -->
+                <div class="card-group" style="gap: 129px;">
+                    <div class="card" style="width: 240px;">
+                        <img src="./assets/img/lapin-2.jpg" alt="snickers" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Snickers</h4>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 240px;">
+                        <img src="./assets/img/hamster-1.jpg" alt="oreo" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Oreo</h4>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 240px;">
+                        <img src="./assets/img/hamster-2.jpg" alt="hamtaro" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Hamtaro</h4>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 240px;">
+                        <img src="assets/img/ours.jpg" alt="chichi" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Bobby</h4>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </section>
+    </main>
+    <footer>
+        <!-- 1ère partie du footer : icônes -->
+        <div class="icones-footer d-flex justify-content-around pt-5 flex-wrap">
+            <div class="adopter">
+                <img src="./assets/img/paw-solid (1).svg" alt="patte logo" style="width: 100px; margin-left: 25px;">
+                <p class="text-uppercase text-center" style="color: #36ba98;">adopter un animal</p>
+            </div>
+            <div class="don">
+                <img src="./assets/img/gift-solid.svg" alt="cadeau logo" style="width: 100px; margin-left: 6px;">
+                 <p class="text-uppercase" style="color: #36ba98;">faire un don</p>
+            </div>
+         <div class="adhérent">
+                <img src="./assets/img/house-user-solid.svg" alt="adhérent logo" style="width: 100px; margin-left: 20px; margin-bottom: 10px;">
+                 <p class="text-uppercase" style="color: #36ba98;">devenir adhérent</p>
+            </div>
+            <div class="don">
+                <img src="./assets/img/hand-holding-heart-solid.svg" alt="bénévole logo" style="width: 100px; margin-left: 20px;">
+                 <p class="text-uppercase" style="color: #36ba98;">devenir bénévole</p>
+            </div>
+            <div class="reseaux">
+                <img src="./assets/img/facebook-brands-.svg" alt="facebook logo" style="width: 40px;">
+                <img src="./assets/img/instagram-brands-solid.svg" alt="instagram logo" style="width: 40px;">
+                <img src="./assets/img/youtube-brands-solid.svg" alt="youtube logo" style="width: 40px;">
+                 <p class="text-uppercase" style="color: #36ba98;">nous rejoindre</p>
+            </div>
+        </div>
+        <!-- 2ème partie du footer : fin du footer -->
+        <div class="footer copyright text-light text-center" style="background-color: #36ba98;">
+                    <p>© 2024 Patte Dans La Main. Tous droits réservés.</p>
+        <p>Association pour la protection et l'adoption des animaux.</p>
+        </div>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

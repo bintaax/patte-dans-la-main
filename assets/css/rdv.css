@@ -13,7 +13,6 @@ body {
  
 header {
     background-color: #fff;
-    padding: 15px 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
@@ -212,4 +211,77 @@ footer p {
         flex-direction: column;
         gap: 5px;
     }
+}
+
+/* Navigation fixe */
+.nav {
+    z-index: 1;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    
+
+   tel img {
+
+
+    }
+    p {
+        margin-top: 20px;
+    }
+
+
+
+}
+
+
+
+
+.card-group {
+    img {
+        height: 359px;
+    }
+    
+}
+
+.card
+ 
+/* Navigation non-fixe */
+#non-fixe {
+    z-index: 0;
+}
+/* Bannière */
+.banner {
+    background-image: url('../img/banner.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 400px;
+}
+ 
+/* Boutons du header */
+ 
+button {
+    width: 100px;
+    height: 50px;
+}
+ 
+.banner img {
+    width: 100%;
+}
+ 
+/* Icônes du footer */
+.icones-footer p {
+    padding-top: 10px;
+}
+ 
+.reseaux {
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: #36BA98;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
 }
