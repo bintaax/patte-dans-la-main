@@ -3,30 +3,31 @@
     margin: 0;
     padding: 0;
 }
- 
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: #FFFAF7;
     color: #444;
     line-height: 1.6;
 }
- 
+
 header {
     background-color: #fff;
+    padding: 15px 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
- 
+
 .logo-header {
     height: 70px;
     color: #E76F51;
 }
- 
+
 nav {
     background-color: #36BA98;
     padding: 10px 0;
 }
- 
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -34,7 +35,7 @@ nav ul {
     align-items: center;
     gap: 15px;
 }
- 
+
 nav ul li a {
     text-decoration: none;
     color: white;
@@ -44,44 +45,44 @@ nav ul li a {
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
- 
+
 nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
- 
+
 main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
- 
+
 h1, h2 {
     color: #E76F51;
     text-align: center;
     margin-bottom: 20px;
 }
- 
+
 h1 {
     font-size: 2.8rem;
     margin-top: 30px;
 }
- 
+
 h2 {
     font-size: 2.2rem;
     margin-top: 40px;
 }
- 
+
 .hero {
     text-align: center;
     padding: 40px 20px;
 }
- 
+
 .hero p {
     font-size: 1.1rem;
     max-width: 700px;
     margin: 0 auto 30px auto;
 }
- 
+
 .btn {
     display: inline-block;
     background-color: #36BA98;
@@ -92,12 +93,12 @@ h2 {
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
- 
+
 .btn:hover {
     background-color: #2b9e82;
     transform: translateY(-2px);
 }
- 
+
 .content-section, .featured-story {
     background-color: #fff;
     padding: 40px;
@@ -105,17 +106,12 @@ h2 {
     margin: 40px auto;
     max-width: 900px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
-    img {
-        width: 100%;
-        height: 100%;
-    
-    }
 }
- 
+
 .story-content {
     text-align: center;
 }
- 
+
 .image-alt-text {
     font-style: italic;
     color: #888;
@@ -125,24 +121,18 @@ h2 {
     border-radius: 5px;
     background-color: #f9f9f9;
 }
- 
+
 .animal-gallery {
     padding-bottom: 50px;
-
-    img {
-        width: 100%;
-        height: 100%;
-    
-    }
 }
- 
+
 .gallery-container {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
 }
- 
+
 .swiper-slide {
     background-color: #fff;
     border-radius: 10px;
@@ -154,19 +144,19 @@ h2 {
     display: flex;
     flex-direction: column;
 }
- 
+
 .swiper-slide:hover {
     transform: translateY(-8px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
- 
+
 .swiper-slide-inner {
     padding: 20px;
     display: flex;
     flex-direction: column;
     height: 100%;
 }
- 
+
 .image-placeholder {
     height: 200px;
     display: flex;
@@ -174,18 +164,18 @@ h2 {
     justify-content: center;
     width: 100%;
 }
- 
+
 .image-placeholder .image-alt-text {
     width: 100%;
 }
- 
+
 .swiper-slide-inner h3 {
     margin-top: auto;
     padding-top: 15px;
     color: #444;
     font-size: 1.5rem;
 }
- 
+
 footer {
     background-color: #36BA98;
     color: white;
@@ -193,95 +183,22 @@ footer {
     padding: 30px 20px;
     margin-top: 50px;
 }
- 
+
 footer p {
     margin: 5px 0;
 }
- 
+
 @media (max-width: 768px) {
     h1 {
         font-size: 2.2rem;
     }
-   
+    
     h2 {
         font-size: 1.8rem;
     }
- 
+
     nav ul {
         flex-direction: column;
         gap: 5px;
     }
-}
-
-/* Navigation fixe */
-.nav {
-    z-index: 1;
-    align-items: center;
-    position: fixed;
-    width: 100vw;
-    
-
-   tel img {
-
-
-    }
-    p {
-        margin-top: 20px;
-    }
-
-
-
-}
-
-
-
-
-.card-group {
-    img {
-        height: 359px;
-    }
-    
-}
-
-.card
- 
-/* Navigation non-fixe */
-#non-fixe {
-    z-index: 0;
-}
-/* Bannière */
-.banner {
-    background-image: url('../img/banner.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 400px;
-}
- 
-/* Boutons du header */
- 
-button {
-    width: 100px;
-    height: 50px;
-}
- 
-.banner img {
-    width: 100%;
-}
- 
-/* Icônes du footer */
-.icones-footer p {
-    padding-top: 10px;
-}
- 
-.reseaux {
-    padding-top: 50px;
-}
-
-.footer {
-    background-color: #36BA98;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-    margin-top: 50px;
 }
