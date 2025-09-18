@@ -8,33 +8,18 @@
     <link rel="stylesheet" href="assets/css/accueil.css">
 </head>
 <body style="background-color: #fffaf7;">
- <header>
-        <!-- Navigation fixe -->
-        <nav class="nav d-flex justify-content-evenly w-100 bg-white" style="background-color: white;" id="fixe">
-            <a href="#" class="navbar-brand"><img src="./assets/img/logo.png" alt="logo" style="width: 200px;"></a>
-            <div class="tel d-flex">
-                <img src="./assets/img/icons8-téléphone-32.png" alt="icone telephone" style="width: 40px; height: 40px; margin-right: 10px; margin-top: 15px;">
-                <p style="color: #e76f51;">01 23 45 67 89</p>
-            </div>
-            <div class="bouton-header">
-                <button style="background-color: #36ba98; border: none;" class="text-light text-uppercase rounded">j'adopte</button>
-                <button style="background-color: #36ba98; border: none;" class="text-light text-uppercase rounded">je donne</button>
-                <button style="background-color: #36ba98; border: none;" class="text-light text-uppercase rounded">j'adhère</button>
-            </div>            
-        </nav>
-        <!-- Navigation non-fixe -->
-        <nav  class="navbar w-100 d-flex justify-content-center flex-wrap"  style="background-color: #e76f51;" id="non-fixe">
-            <ul class="d-flex" style="gap: 40px; margin-top: 150px;">
-                <li class="list-unstyled text-uppercase text-light"><a href="#">patte dans la main</a></li>
-                <li class="list-unstyled text-uppercase text-light"><a href="yoda-yami.html">j'adopte</a></li>
-                <li class="list-unstyled text-uppercase text-light"><a href="#">j'aide</a></li>
-                <li class="list-unstyled text-uppercase text-light"><a href="#">j'ai besoin d'aide</a></li>
-                <li class="list-unstyled text-uppercase text-light"><a href="rdv.html">nous contacter</a></li>
-            </ul>
-        </nav>
- 
-        <div class="banner"></div>
+  <header>
+        <img src="assets/img/logo.png" alt="Logo Patte Dans La Main" class="logo-header">
     </header>
+    <nav>
+        <ul>
+            <li><a href="#">Adopter</a></li>
+            <li><a href="#">Nos Animaux</a></li>
+            <li><a href="#">Faire un don</a></li>
+            <li><a href="#">Nous Aider</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
     <main>
         <section class="container" style="background-color: #fffaf7;">
             <!-- Caroussel -->
@@ -153,8 +138,7 @@
              </div>
         </section>
     </main>
-    <footer>
-        <!-- 1ère partie du footer : icônes -->
+    <div class="before-footer">         
         <div class="icones-footer d-flex justify-content-around pt-5 flex-wrap">
             <div class="adopter">
                 <img src="./assets/img/paw-solid (1).svg" alt="patte logo" style="width: 100px; margin-left: 25px;">
@@ -179,10 +163,11 @@
                  <p class="text-uppercase" style="color: #36ba98;">nous rejoindre</p>
             </div>
         </div>
-        <!-- 2ème partie du footer : fin du footer -->
-        <div class="copyright text-light text-center" style="background-color: #36ba98;">
-            Patte Dans La Main. Tous droits réservés. 
-        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Patte Dans La Main. Tous droits réservés.</p>
+        <p>Association pour la protection et l'adoption des animaux.</p>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
